@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ff8800;
+    color: white;
+}
+
+.player-container {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    background: black;
+    border-radius: 10px;
+}
+
+.controls button {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#progress-bar {
+    width: 100%;
+}
